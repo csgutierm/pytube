@@ -20,7 +20,7 @@ Let's see what your code might look like if you need to do exception handling::
     ...     try:
     ...         yt = YouTube(url)
     ...     except VideoUnavailable:
-    ...         print(f'Video {url} is unavaialable, skipping.')
+    ...         print(f'Video {url} is unavailable, skipping.')
     ...     else:
     ...         print(f'Downloading video: {url}')
     ...         yt.streams.first().download()
